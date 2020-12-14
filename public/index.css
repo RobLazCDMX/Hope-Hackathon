@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./family4.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  background-position: center;
+}
+h1 {
+  font-size: 100px;
+  text-align: center;
+  position: relative;
+  top: 240px;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+}
+
+/* Learn More */
+
+.learn {
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+  background-color: rgba(197, 192, 150, 0.678);
+  border-radius: 8px;
+}
+
+.learn:hover {
+  background-color: rgb(197, 192, 150);
+}
