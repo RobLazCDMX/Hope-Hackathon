@@ -27,5 +27,5 @@ function smoothScroll(target, duration) {
 // Where and how fast SCROLLING
 var section1 = document.querySelector(".learn");
 section1.addEventListener("click", function () {
-  smoothScroll(".section2", 1000);
+  smoothScroll(".section2", 2000);
 });

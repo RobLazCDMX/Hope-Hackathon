@@ -2,6 +2,8 @@ const express = require("express");
 const app = express();
 const fetch = require("node-fetch");
 
+// Grabbing API
+
 app.get("/covid", async (req, res) => {
   const covidData = await fetch(
     "https://api.covid19api.com/live/country/mexico"
