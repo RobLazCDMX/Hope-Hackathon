@@ -216,3 +216,26 @@ button {
     background-position: 0 0;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    position: relative;
+    right: -130px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .learn {
+    position: absolute;
+    bottom: 1px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 200px;
+    position: relative;
+    right: -30px;
+    font-size: 20px;
+  }
+}
