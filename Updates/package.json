@@ -1,0 +1,20 @@
+{
+  "name": "hopeh",
+  "version": "1.0.0",
+  "description": "HopeHackethon",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roberto Lazcano",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6",
+    "request": "^2.88.2"
+  }
+}
