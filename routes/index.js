@@ -45,8 +45,4 @@ router.get("/", (req, res) => {
 
 module.exports = router;
 
-// let stateConfirmed = JSON.parse(body)[0].states.fields.map((confirmed) => {  //Create a map array with just Confirmed Cases
 
-//     console.log( confirmed.mapValue.fields.confirmed.integerValue)
-//     return    confirmed.mapValue.fields.state.integerValue
-// })
