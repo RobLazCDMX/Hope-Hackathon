@@ -21,6 +21,7 @@ router.get("/", (req, res) => {
       res.status(404).send("Could not find information");
     } else {
       const response = JSON.parse(body);
+      console.log(response);
       const states = {};
       for (var i = 0; i < response[0].states.fields.length; i++) {
         var s = response[0].states.fields[i].mapValue.fields;

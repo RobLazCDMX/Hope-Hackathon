@@ -21,6 +21,8 @@
   <body>
     <!-- Hero -->
     <div class="hero-image">
+      <% if (state){ %>
+
       <div class="card">
         <img src="./img/covid199.jpg" alt="Avatar" />
         <div class="container">
@@ -34,6 +36,7 @@
           <h2>Recovered Cases <%-state.recovered%></h2>
         </div>
       </div>
+      <% } %>
       <h1>Returning Home</h1>
       <h3>
         A Guide to the Challenges and Opportunities After Deportation and what
