@@ -1,1 +1,4 @@
-node_modules
+*node_modules 
+*gitignore
+
+//ignores node_modules, gitignore so they won't get push to github
