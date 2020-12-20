@@ -41,7 +41,11 @@ h1 {
   color: white;
   text-align: center;
   font-size: 70px;
+  position: relative;
+  position: relative;
+  bottom: -2%;
 }
+
 h2 {
   font-family: "Titillium Web", sans-serif;
   color: black;
@@ -53,6 +57,8 @@ h3 {
   color: white;
   text-align: center;
   font-size: 40px;
+  position: relative;
+  bottom: -5%;
 }
 
 h4 {
@@ -177,9 +183,10 @@ input:hover {
   display: inline-block;
   position: relative;
   left: 560px;
-  padding: 30px;
+  padding: 20px;
   border-radius: 100px;
   margin: 10px 0;
+  bottom: -3%;
 }
 
 .state-box:hover {
@@ -313,12 +320,16 @@ p {
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 45px;
+    position: relative;
+    top: -3%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   h3 {
     font-size: 25px;
+    position: relative;
+    top: -4%;
   }
 }
 
