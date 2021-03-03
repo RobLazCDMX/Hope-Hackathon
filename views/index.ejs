@@ -24,16 +24,23 @@
       <% if (state){ %>
 
       <div class="card">
-        <img src="./img/covid199.jpg" alt="Avatar" />
+        <!-- <img src="./img/covid199.jpg" alt="Avatar" /> -->
         <div class="container">
-          <h2>Confirmed Cases <%-state.confirmed%></h2>
+          <h2>Possible Cases: <%-state.possible%></h2>
+        </div>
+      </div>  
+
+      <div class="card">
+        <!-- <img src="./img/covid199.jpg" alt="Avatar" /> -->
+        <div class="container">
+          <h2>Confirmed Cases: <%-state.confirmed%></h2>
         </div>
       </div>
 
       <div class="card">
-        <img src="./img/covid199.jpg" alt="Avatar" />
+        <!-- <img src="./img/covid199.jpg" alt="Avatar" /> -->
         <div class="container">
-          <h2>Recovered Cases <%-state.recovered%></h2>
+          <h2>Recovered Cases: <%-state.recovered%></h2>
         </div>
       </div>
 

@@ -2,11 +2,7 @@
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
-// const request = require("request");
-// const morgan = require("morgan")
-// const path = require("path");
 
-// app.use(morgan("dev"));
 
 ///////////////////
 // Static file
@@ -17,7 +13,7 @@ app.use('/img',express.static(__dirname + "/public/img"));
 
 
 
-// app.set('views',path.join(__dirname,'views'))
+
 
 //////////////////////
 // Templating Engine
