@@ -50,6 +50,7 @@ h1 {
   font-size: 70px;
   margin: 0;
 }
+
 h2 {
   font-family: "Titillium Web", sans-serif;
   color: black;
@@ -63,6 +64,8 @@ h3 {
   color: white;
   text-align: center;
   font-size: 40px;
+  position: relative;
+  bottom: -5%;
 }
 
 h4 {
@@ -252,6 +255,17 @@ p {
   color: white;
   z-index: 1;
   display: block;
+}
+
+/* footer */
+.footer2 {
+  background-color: white;
+  color: #303f4b;
+  font-family: "Titillium Web", sans-serif;
+
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 /* animation */
